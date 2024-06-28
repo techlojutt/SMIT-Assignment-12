@@ -1,8 +1,5 @@
-var i = 97;
-var n = 122 ;
-
-while(i<=n){
-console.log(charCodeAt(i));
-i++;
-
+var i = 97 ;
+while (i <= 122) {
+   console.log (String.fromCharCode(i));
+    i++;
 }
